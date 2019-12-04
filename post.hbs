@@ -12,6 +12,10 @@
         <p class="gh-excerpt">{{custom_excerpt}}</p>
         {{/if}}
 
+        <div class="gh-post-authors">
+            Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}
+        </div>
+        
         {{#if feature_image}}
             <img class="gh-feature-image" src="{{feature_image}}" alt="{{title}}" />
         {{/if}}
@@ -23,9 +27,9 @@
 
     <footer class="gh-footer gh-canvas">
 
-        <div class="gh-post-authors">
+        {{!-- <div class="gh-post-authors">
             Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}
-        </div>
+        </div> --}}
 
         {{!--
         <section class="gh-post-comments">

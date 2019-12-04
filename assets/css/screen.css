@@ -110,13 +110,13 @@ html,
 .gh-card-content {
     max-width: 720px;
     margin: 0 auto;
-    text-align: center;
-    font-size: 1.6rem;
+    text-align: left;
+    font-size: 1.4rem;
 }
 
 .gh-card-content p {
     margin: 1.2rem 0;
-    padding: 0 6vmin;
+    /* padding: 0 6vmin; */
 }
 
 .gh-card-content > strong {
@@ -162,7 +162,7 @@ html,
 
 .gh-header {
     padding: 0 0 8vmin 0;
-    text-align: center;
+    text-align: left;
 }
 
 .gh-post-meta {
@@ -189,10 +189,13 @@ html,
     margin: 8vmin 0 0;
 }
 
-.gh-post-footer {
+.gh-post-authors {
     margin: 2rem 0;
 }
 
+.gh-post-footer {
+    margin: 2rem 0;
+}
 
 /* Author Archive
 /* ---------------------------------------------------------- */
