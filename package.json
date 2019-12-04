@@ -2,7 +2,7 @@
     "name": "ghost-fe",
     "description": "A custom theme for ghost",
     "demo": "https://starter.ghost.io",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
