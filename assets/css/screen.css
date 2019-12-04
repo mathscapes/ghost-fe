@@ -71,7 +71,7 @@ html,
 }
 
 .gh-head-actions a:first-child svg {
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .gh-head-actions a:last-child svg {
