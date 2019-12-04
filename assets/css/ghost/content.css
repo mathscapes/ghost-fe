@@ -115,19 +115,24 @@
 }
 
 .gh-content blockquote {
+    font-family:  century-old-style-std, serif; 
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    margin-bottom: 3rem;
     position: relative;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
-.gh-content blockquote::before {
-    content: "";
+/* .gh-content blockquote::before {
+    content: ";
     position: absolute;
     left: -1.5em;
     top: 0;
     bottom: 0;
     width: 0.3rem;
     background: var(--color-primary);
-}
+} */
 
 @media (max-width: 650px) {
     .gh-canvas blockquote,

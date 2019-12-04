@@ -145,14 +145,14 @@ html,
     max-width: 720px;
     margin: 0.3em auto 0;
     padding: 0 6vmin;
-    font-size: 1.3em;
+    font-size: 1.4em;
     line-height: 1.4em;
     opacity: 0.5;
 }
 
 @media (max-width: 700px) {
     .gh-page-head > p {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -175,6 +175,11 @@ html,
 }
 
 .gh-excerpt {
+    font-size: 2rem !important;
+    line-height: 2.8rem !important;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: -1px;
+    font-weight: 100;
     margin: 1rem 0 0 0;
 }
 
@@ -231,6 +236,6 @@ html,
 
 @media (max-width: 700px) {
     .gh-author-meta {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
     }
 }
