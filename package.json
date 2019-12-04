@@ -42,7 +42,7 @@
         "url": "https://github.com/mathscapes/ghost-fe.git"
     },
     "bugs": "https://github.com/mathscapes/ghost-fe.gitissues",
-    "contributors": "https://github.com/mathscapes/ghost-fe.git/graphs/contributors",
+    "contributors": ["https://github.com/mathscapes/ghost-fe.git/graphs/contributors"],
     "devDependencies": {
         "autoprefixer": "9.7.3",
         "cssnano": "4.1.10",
