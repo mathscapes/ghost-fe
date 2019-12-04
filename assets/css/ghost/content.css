@@ -96,7 +96,7 @@
 .gh-canvas p {
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 1.6em;
 }
 
@@ -135,7 +135,7 @@
     .gh-canvas ul,
     .gh-canvas dl,
     .gh-canvas p {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
 
     .gh-content blockquote::before {
@@ -260,7 +260,7 @@
 
 .kg-bookmark-title {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.3em;
 }
 
