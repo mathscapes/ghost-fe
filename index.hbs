@@ -3,13 +3,19 @@
 <div class="gh-page">
     <div class="gh-container">
 
-        <div class="gh-postfeed">
-        {{#foreach posts}}
+        <center>
+            <h1>
+                This is Mathscapes — A studio for Math and Algorithms
+            </h1>
 
-            {{> "card"}} {{!-- partials/card.hbs --}}
+            <div class="gh-postfeed">
+            {{#foreach posts}}
 
-        {{/foreach}}
-        </div>
+                {{> "card"}} {{!-- partials/card.hbs --}}
+
+            {{/foreach}}
+            </div>
+        </center>
 
     </div>
 </div>
