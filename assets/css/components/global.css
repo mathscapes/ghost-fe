@@ -142,14 +142,15 @@ h4,
 h5,
 h6 {
     margin: 0;
-    line-height: 1.15em;
-    font-weight: 700;
+    line-height: 1.3em;
+    font-weight: 400;
     color: var(--color-slate);
 }
 
 h1 {
     font-size: 2.4rem;
     letter-spacing: -0.5px;
+    font-weight: 700;
 }
 @media (max-width: 500px) {
     h1 {
