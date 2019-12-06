@@ -118,7 +118,7 @@
     font-family:  century-old-style-std, serif; 
     font-weight: 400;
     font-size: 1.8rem;
-    color: var(--color-primary);
+    color: var(--color-slate);
     margin-bottom: 3rem;
     position: relative;
     /* font-style: italic; */
@@ -163,14 +163,14 @@
 .kg-card figcaption {
     padding: 1.5rem 1.5rem 0;
     text-align: center;
-    color: rgba(0,0,0,0.5);
+    color: var(--color-slate-light);
     font-weight: 600;
     font-size: 1.3rem;
     line-height: 1.4em;
 }
 
 .kg-card figcaption strong {
-    color: rgba(0,0,0,0.8);
+    color: var(--color-slate-light);
 }
 
 .gh-canvas :not(pre) code {

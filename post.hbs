@@ -5,7 +5,17 @@
 <article class="gh-article {{post_class}}">
 
     <header class="gh-header gh-canvas">
-        <span class="gh-post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}}</span>
+        {{!-- <span class="gh-post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> <span class="bull">&bull;</span> {{reading_time}}</span> --}}
+        <span class="gh-post-meta">
+            {{#if primary_tag}}
+            <section class="post-full-tags">
+                {{#primary_tag}}
+                {{name}}
+                {{!-- <a href="{{url}}">{{name}}</a> --}}
+                {{/primary_tag}}
+            </section>
+            {{/if}}
+        </span>
         <h1 class="gh-title">{{title}}</h1>
 
         {{#if custom_excerpt}}
@@ -13,7 +23,9 @@
         {{/if}}
 
         <div class="gh-post-authors">
-            Written by {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}
+            By {{#foreach authors}}<a href="{{url}}">{{name}}</a>{{/foreach}}
+
+            &nbsp;&nbsp;&nbsp;&nbsp;<time datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time> &nbsp;&nbsp;&nbsp;&nbsp; {{reading_time}}
         </div>
         
         {{#if feature_image}}

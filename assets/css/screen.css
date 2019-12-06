@@ -177,9 +177,8 @@ html,
 .gh-excerpt {
     font-size: 2rem !important;
     line-height: 2.8rem !important;
-    color: rgba(0,0,0,0.5);
+    color: var(--color-slate-light);
     letter-spacing: -1px;
-    font-weight: 100;
     margin: 1rem 0 0 0;
 }
 

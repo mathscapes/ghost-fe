@@ -5,7 +5,8 @@
 
     /* Colours */
     --color-primary: #000;
-    --color-base: #222;
+    --color-slate: rgb(54,54,57);
+    --color-slate-light: rgba(54,54,57,0.75);
     --color-border: #dddddd;
     --color-bg: #fff;
 
