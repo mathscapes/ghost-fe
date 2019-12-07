@@ -96,8 +96,8 @@
 .gh-canvas p {
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: 1.4rem;
-    line-height: 1.6em;
+    font-size: 2rem;
+    line-height: 1.5em;
 }
 
 .gh-content ul,
@@ -116,11 +116,12 @@
 
 .gh-content blockquote {
     font-family:  century-old-style-std, serif; 
-    font-weight: 400;
-    font-size: 1.8rem;
+    font-weight: 700;
+    font-size: 2.5rem;
     color: var(--color-primary);
     margin-bottom: 3rem;
     position: relative;
+    padding: 2em;
     /* font-style: italic; */
 }
 
