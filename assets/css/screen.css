@@ -176,9 +176,9 @@ html,
 
 .gh-excerpt {
     font-family: var(--font-sans-serif) !important;
-    font-size: 2rem !important;
-    font-weight: 500 !important;
-    line-height: 2.8rem !important;
+    font-size: 1.8rem !important;
+    font-weight: 400 !important;
+    line-height: 2.4rem !important;
     color: rgba(0,0,0,0.5);
     letter-spacing: -0.01em;
     margin: 1rem 0 0 0;

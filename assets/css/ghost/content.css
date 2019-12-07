@@ -96,8 +96,8 @@
 .gh-canvas p {
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: 2rem;
-    line-height: 1.5em;
+    font-size: 2.2rem;
+    line-height: 1.4em;
 }
 
 .gh-content ul,
@@ -115,14 +115,11 @@
 }
 
 .gh-content blockquote {
-    font-family:  century-old-style-std, serif; 
-    font-weight: 700;
-    font-size: 2.5rem;
+    /* font-size: 3rem; */
     color: var(--color-primary);
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
     position: relative;
-    padding: 2em;
-    /* font-style: italic; */
+    font-style: italic;
 }
 
 /* .gh-content blockquote::before {
@@ -165,8 +162,8 @@
     padding: 1.5rem 1.5rem 0;
     text-align: center;
     color: var(--color-slate-light);
-    font-weight: 600;
-    font-size: 1.3rem;
+    font-weight: 400;
+    font-size: 1.4rem;
     line-height: 1.4em;
 }
 
